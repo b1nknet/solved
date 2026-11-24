@@ -17,8 +17,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 SOLVED_URL = "https://solved.ac"
 API_URL = f"{SOLVED_URL}/api/v4"
-LEVEL_ICONS = "https://cdn.solved.ac/assets/tier"
-LANGUAGE_ICON_BASE = "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons"
+TIER_ICON_DIR = "src/tiers"
+LANGUAGE_ICON_DIR = "src/languages"
 LANGUAGE_ICONS = {
     ".c": ("C", "c"),
     ".cc": ("C++", "cplusplus"),
@@ -155,7 +155,7 @@ def code_link(path):
     language = LANGUAGE_ICONS.get(path.suffix.lower())
     if language is not None:
         name, icon = language
-        source = f"{LANGUAGE_ICON_BASE}/{icon}/{icon}-original.svg"
+        source = f"{LANGUAGE_ICON_DIR}/{icon}-original.svg"
         description = escape(f"{name} ({path.name})")
         label = (
             f'<img src="{source}" alt="{description}" title="{description}" '
@@ -179,7 +179,7 @@ def problem_row(number, files, problem, judge):
         value = problem["level"]
         level = difficulty_name(value)
         if value in range(31):
-            source = f"{LEVEL_ICONS}/p{int(value):02d}.svg"
+            source = f"{TIER_ICON_DIR}/p{int(value):02d}.svg"
             level = f'<img src="{source}" alt="{level}" title="{level}" height="20">'
 
     links = " ".join(code_link(path) for path in files)
@@ -214,7 +214,9 @@ def main():
     try:
         readme = readme_path.read_text(encoding="utf-8")
         profile_link = re.search(
-            r"\[solved\.ac\]\(https://solved\.ac/(?:profile/)?([a-zA-Z0-9_.-]+)/?\)", readme
+            r'\[(?:solved\.ac|<img\b[^>]*\salt="solved\.ac"[^>]*>)\]'
+            r"\(https://solved\.ac/(?:profile/)?([a-zA-Z0-9_.-]+)/?\)",
+            readme,
         )
         if profile_link is None:
             raise ValueError("README.md에서 solved.ac 프로필 링크를 찾지 못했습니다.")
