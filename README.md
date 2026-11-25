@@ -15,11 +15,11 @@
 
 <!-- solvedac:stats:start -->
 
-rate: **1741** | solved: **1148** | class: **5**
+rate: **1741** | solved: **1149** | class: **5**
 
-저장된 문제 수: **6**
+저장된 문제 수: **7**
 
-업데이트: 26.11.24. 16:49:14 (KST)
+업데이트: 26.11.25. 14:54:26 (KST)
 
 <!-- solvedac:stats:end -->
 
@@ -32,6 +32,7 @@ rate: **1741** | solved: **1148** | class: **5**
 |:---:|:---:|:---:|:---:|
 | [2875](https://solved.ac/p/2875) | 대회 or 인턴 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (2875.py)" title="Python (2875.py)" width="20" height="20">](problems/02xxx/2875.py) |
 | [2953](https://solved.ac/p/2953) | 나는 요리사다 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (2953.py)" title="Python (2953.py)" width="20" height="20">](problems/02xxx/2953.py) |
+| [10102](https://solved.ac/p/10102) | 개표 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10102.py)" title="Python (10102.py)" width="20" height="20">](problems/10xxx/10102.py) |
 | [10103](https://solved.ac/p/10103) | 주사위 게임 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10103.py)" title="Python (10103.py)" width="20" height="20">](problems/10xxx/10103.py) |
 | [10991](https://solved.ac/p/10991) | 별 찍기 - 16 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10991.py)" title="Python (10991.py)" width="20" height="20">](problems/10xxx/10991.py) |
 | [20053](https://solved.ac/p/20053) | 최소, 최대 2 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (20053.py)" title="Python (20053.py)" width="20" height="20">](problems/20xxx/20053.py) |
