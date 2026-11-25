@@ -6,8 +6,7 @@
 
 ![Github code size in bytes](https://img.shields.io/github/languages/code-size/b1nknet/solved?style=flat-square)
 
-[![solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?handle=b1nknet)](https://solved.ac/b1nknet)
-<!-- ![solved.ac 잔디](http://mazandi.herokuapp.com/api?handle=b1nknet&theme=dark) -->
+[![solved.ac 프로필과 스트릭](src/solvedac-streak.png)](https://solved.ac/b1nknet)
 
 [<img src="src/OJs/solvedac.svg" alt="solved.ac" width="24" height="24">](https://solved.ac/b1nknet) &nbsp;
 [<img src="src/OJs/boj.png" alt="BOJ" width="24" height="24">](https://acmicpc.net/user/ftw_0x00) &nbsp;
