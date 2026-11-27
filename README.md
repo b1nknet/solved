@@ -17,9 +17,9 @@
 
 rate: **1741** | solved: **1150** | class: **5**
 
-저장된 문제 수: **8**
+저장된 문제 수: **9**
 
-업데이트: 26.11.26. 12:14:21 (KST)
+업데이트: 26.11.27. 13:23:50 (KST)
 
 <!-- solvedac:stats:end -->
 
@@ -35,6 +35,7 @@ rate: **1741** | solved: **1150** | class: **5**
 | [3059](https://solved.ac/p/3059) | 등장하지 않는 문자의 합 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (3059.py)" title="Python (3059.py)" width="20" height="20">](problems/03xxx/3059.py) |
 | [10102](https://solved.ac/p/10102) | 개표 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10102.py)" title="Python (10102.py)" width="20" height="20">](problems/10xxx/10102.py) |
 | [10103](https://solved.ac/p/10103) | 주사위 게임 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10103.py)" title="Python (10103.py)" width="20" height="20">](problems/10xxx/10103.py) |
+| [10821](https://solved.ac/p/10821) | 정수의 개수 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10821.py)" title="Python (10821.py)" width="20" height="20">](problems/10xxx/10821.py) |
 | [10991](https://solved.ac/p/10991) | 별 찍기 - 16 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (10991.py)" title="Python (10991.py)" width="20" height="20">](problems/10xxx/10991.py) |
 | [20053](https://solved.ac/p/20053) | 최소, 최대 2 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (20053.py)" title="Python (20053.py)" width="20" height="20">](problems/20xxx/20053.py) |
 | [24265](https://solved.ac/p/24265) | 알고리즘 수업 - 알고리즘의 수행 시간 4 | <img src="src/tiers/p03.svg" alt="Bronze III" title="Bronze III" height="20"> | [<img src="src/languages/python-original.svg" alt="Python (24265.py)" title="Python (24265.py)" width="20" height="20">](problems/24xxx/24265.py) |
